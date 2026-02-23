@@ -1,0 +1,2773 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>売上は伸びているのに、なぜ会社にお金が残らないのか？｜丸一 無料セミナー</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+      line-height: 1.8;
+      color: #333;
+      background: #fff;
+    }
+    .lp-wrap { width: 100%; max-width: 100%; margin: 0 auto; }
+    /* 帯を画面幅いっぱいに（左右にはみ出して表示） */
+    #kadai .kadai-hero-band,
+    #kadai .kadai-top-gold-band,
+    #method .method-hero-band,
+    #method .method-gold-band,
+    #kaiketsu .roadmap-hero-band,
+    #kaiketsu .roadmap-gold-band,
+    #benefit .benefit-hero-band,
+    #benefit .benefit-gold-band,
+    #outcomes .outcomes-hero-band,
+    #outcomes .outcomes-gold-band,
+    #compare .compare-hero-band,
+    #compare .compare-gold-band,
+    #jisseki .jisseki-hero-band,
+    #jisseki .jisseki-gold-band,
+    #program .program-hero-band,
+    #program .program-gold-band,
+    #summary .summary-hero-band,
+    #summary .summary-gold-band,
+    #form .form-hero-band,
+    #form .form-gold-band,
+    #faq .faq-hero-band,
+    #faq .faq-gold-band,
+    .instructor-section .inst-hero-band,
+    .instructor-section .inst-gold-band {
+      position: relative;
+      left: 50%;
+      width: 100vw;
+      max-width: none;
+      margin-left: -50vw;
+      box-sizing: border-box;
+    }
+
+    /* ========== ヒーローセクション ========== */
+    .hero-container {
+      width: 100%;
+      font-family: inherit;
+      overflow: hidden;
+    }
+    .hero-container .top-section {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      color: #fff;
+      padding: 56px 24px 64px;
+      position: relative;
+    }
+    .hero-container .top-section::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, transparent, #eac159, transparent);
+      opacity: 0.8;
+    }
+    .hero-container .hero-inner {
+      max-width: 880px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .hero-container .hero-copy {
+      width: 100%;
+    }
+    .hero-container .hero-label {
+      font-size: 14px;
+      font-weight: 700;
+      color: #eac159;
+      letter-spacing: 0.12em;
+      margin: 0 0 24px;
+    }
+    .hero-container .hero-headline1 {
+      font-size: clamp(28px, 4.5vw, 42px);
+      font-weight: 800;
+      line-height: 1.5;
+      margin: 0 0 20px;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    .hero-container .hero-headline2 {
+      font-size: clamp(32px, 5.5vw, 52px);
+      font-weight: 900;
+      line-height: 1.35;
+      margin: 0 0 28px;
+      letter-spacing: 0.02em;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    .hero-container .hero-headline2-line1 {
+      display: inline-block;
+      white-space: nowrap;
+    }
+    .hero-container .hero-proof {
+      font-size: clamp(15px, 1.8vw, 17px);
+      font-weight: 600;
+      line-height: 1.75;
+      margin: 0;
+      color: rgba(255,255,255,0.9);
+    }
+    @media (max-width: 768px) {
+      .hero-container .top-section { padding: 40px 20px 52px; }
+      .hero-container .hero-label { margin-bottom: 20px; }
+      .hero-container .hero-headline1 { margin-bottom: 16px; font-size: clamp(24px, 6vw, 32px); }
+      .hero-container .hero-headline2 { margin-bottom: 22px; font-size: clamp(26px, 7vw, 36px); }
+      .hero-container .hero-headline2-line1 { white-space: normal; }
+    }
+    img { max-width: 100%; height: auto; display: block; vertical-align: top; }
+    .cta-link { display: block; text-align: center; }
+    .cta-link img { margin: 0 auto; }
+    .voice-block { margin-bottom: 32px; }
+    .voice-block .voice-img { margin-bottom: 12px; }
+    .voice-block .voice-text { padding: 0 16px 16px; font-size: 15px; }
+    .youtube-wrap { margin: 16px 0; padding: 0 16px; }
+    .youtube-wrap iframe { max-width: 100%; width: 560px; height: 315px; margin: 0 auto; display: block; }
+    .faq-list { padding: 0 16px 24px; }
+    .faq-item { border-bottom: 1px solid #e2e8f0; padding: 20px 0; }
+    .faq-q { font-weight: 700; color: #2d3748; margin-bottom: 8px; }
+    .faq-a { color: #4a5568; font-size: 0.95rem; }
+
+    /* 講師情報 */
+    /* ========== 講師紹介（サクセスロードマップ踏襲・権威性・「この講師ならお金が残る」） ========== */
+    .instructor-section {
+      padding: 0;
+      background: #f8f5f0;
+      border-top: none;
+      border-bottom: 1px solid #e2e8f0;
+      overflow: visible;
+    }
+    .instructor-section .inst-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px 50px;
+    }
+    .instructor-section .inst-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    .instructor-section .inst-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    .instructor-section .inst-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    .instructor-section .inst-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 32px;
+      font-size: 20px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    .instructor-section .inst-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    .instructor-section .inst-catch {
+      font-size: clamp(22px, 4vw, 28px);
+      font-weight: 800;
+      color: #1a1a2e;
+      text-align: center;
+      margin-bottom: 28px;
+      line-height: 1.5;
+    }
+    .instructor-section .inst-catch .inst-catch-accent {
+      color: #8b0000;
+      display: inline-block;
+    }
+    .instructor-section .inst-card {
+      background-color: #282828;
+      border: 3px solid #eac159;
+      border-radius: 12px;
+      padding: 36px 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      display: flex;
+      gap: 32px;
+      align-items: flex-start;
+    }
+    .instructor-section .inst-photo-wrap {
+      flex-shrink: 0;
+      position: relative;
+    }
+    .instructor-section .inst-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #eac159;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+      background: #1a1a1a;
+    }
+    .instructor-section .inst-photo-badge {
+      position: absolute;
+      bottom: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(to bottom, #c4a76b 0%, #a68a4f 100%);
+      color: #222;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 14px;
+      border-radius: 20px;
+      border: 2px solid #d4b77b;
+      white-space: nowrap;
+    }
+    .instructor-section .inst-body { flex: 1; min-width: 0; }
+    .instructor-section .inst-name {
+      font-size: 28px;
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 4px;
+      letter-spacing: 0.02em;
+    }
+    .instructor-section .inst-title {
+      font-size: 15px;
+      color: #eac159;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    .instructor-section .inst-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 12px;
+      margin-bottom: 20px;
+    }
+    .instructor-section .inst-stat-pill {
+      background: linear-gradient(to bottom, #c4a76b 0%, #a68a4f 100%);
+      color: #222;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 2px solid #d4b77b;
+    }
+    .instructor-section .inst-bio {
+      font-size: 15px;
+      line-height: 1.85;
+      color: #e0e0e0;
+    }
+    .instructor-section .inst-bio p { margin-bottom: 14px; }
+    .instructor-section .inst-bio p:last-child { margin-bottom: 0; }
+    .instructor-section .inst-bio strong { color: #eac159; }
+    @media (max-width: 768px) {
+      .instructor-section .inst-hero-band { height: 36px; }
+      .instructor-section .inst-gold-band { height: 36px; }
+      .instructor-section .inst-catch { font-size: 20px; margin-bottom: 20px; }
+      .instructor-section .inst-card { flex-direction: column; align-items: center; padding: 28px 20px; text-align: center; }
+      .instructor-section .inst-photo { width: 160px; height: 160px; }
+      .instructor-section .inst-name { font-size: 24px; }
+      .instructor-section .inst-stats { justify-content: center; }
+    }
+
+    /* ========== 追加テキストセクション（課題・解決・5段階・得られること・セミナー概要） ========== */
+    .lp-section {
+      padding: 40px 20px;
+      background: #fff;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .lp-section--gray { background: #f7fafc; }
+    .lp-section h2 {
+      font-size: 1.35rem;
+      color: #1a365d;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 3px solid #2c5282;
+      text-align: center;
+    }
+    .lp-section .lp-inner { max-width: 600px; margin: 0 auto; }
+    .lp-section .lp-lead {
+      font-size: 1rem;
+      color: #4a5568;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .lp-section .lp-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px;
+    }
+    .lp-section .lp-list li {
+      position: relative;
+      padding: 10px 0 10px 24px;
+      border-bottom: 1px solid #e2e8f0;
+      font-size: 0.95rem;
+      color: #2d3748;
+    }
+    .lp-section .lp-list li:last-child { border-bottom: none; }
+    .lp-section .lp-list li::before {
+      content: "・";
+      position: absolute;
+      left: 0;
+      color: #2c5282;
+      font-weight: 700;
+    }
+    .lp-roadmap-steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px;
+    }
+    .lp-roadmap-steps li {
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      background: #edf2f7;
+      border-left: 4px solid #2c5282;
+      font-size: 0.95rem;
+      color: #2d3748;
+    }
+    .lp-roadmap-steps li strong { color: #1a365d; display: block; margin-bottom: 4px; }
+
+    .lp-section .lp-note {
+      font-size: 0.9rem;
+      color: #718096;
+      text-align: center;
+      margin-top: 16px;
+    }
+    .lp-program-dl {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+    .lp-program-dl dt {
+      font-weight: 700;
+      color: #1a365d;
+      margin-top: 16px;
+      margin-bottom: 4px;
+    }
+    .lp-program-dl dt:first-child { margin-top: 0; }
+    .lp-program-dl dd { color: #4a5568; margin-left: 0; line-height: 1.7; }
+
+    /* ========== セミナー概要（確かな実績と信頼トンマナ） ========== */
+    #program.lp-section { padding: 0; overflow: visible; background: #f8f5f0; border-bottom: 1px solid #e2e8f0; }
+    #program .program-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #program .program-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #program .program-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #program .program-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #program .program-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #program .program-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px 56px;
+      text-align: center;
+    }
+    #program .program-card {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 32px 36px 28px;
+      background: #fff;
+      border: 2px solid #c4a76b;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      text-align: left;
+    }
+    #program .program-card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px 32px;
+      margin-bottom: 24px;
+    }
+    #program .program-card-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    #program .program-card-icon {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      border: 2px solid #c4a76b;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8b0000;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1;
+    }
+    #program .program-card-icon span { display: block; }
+    #program .program-card-body dt {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin: 0 0 4px;
+    }
+    #program .program-card-body dd {
+      font-size: 14px;
+      color: #4a5568;
+      margin: 0;
+      line-height: 1.55;
+    }
+    #program .program-card-extra {
+      padding-top: 20px;
+      border-top: 1px solid #e8e0d4;
+      font-size: 14px;
+      color: #4a5568;
+      line-height: 1.7;
+    }
+    #program .program-card-extra dt { font-weight: 700; color: #2d3748; margin-bottom: 4px; }
+    #program .program-card-extra dd { margin: 0 0 12px; }
+    #program .program-card-extra dd:last-child { margin-bottom: 0; }
+    @media (max-width: 768px) {
+      #program .program-hero-band { height: 36px; }
+      #program .program-gold-band { height: 36px; }
+      #program .program-label-box { font-size: 16px; padding: 8px 20px; }
+      #program .program-card { padding: 24px 20px 20px; }
+      #program .program-card-grid { grid-template-columns: 1fr; gap: 20px; }
+    }
+
+    /* ========== まとめ（確かな実績と信頼トンマナ） ========== */
+    #summary.lp-section { padding: 0; overflow: visible; background: #f8f5f0; border-bottom: 1px solid #e2e8f0; }
+    #summary .summary-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #summary .summary-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #summary .summary-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #summary .summary-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #summary .summary-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #summary .summary-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px 56px;
+      text-align: center;
+    }
+    #summary .summary-title {
+      font-size: clamp(22px, 3.5vw, 28px);
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 28px;
+      line-height: 1.45;
+    }
+    #summary .summary-lead {
+      font-size: 17px;
+      color: #2d3748;
+      line-height: 1.9;
+      margin: 0 0 24px;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #summary .summary-lead-question {
+      display: block;
+      font-size: clamp(18px, 2.8vw, 22px);
+      font-weight: 800;
+      color: #8b0000;
+      line-height: 1.5;
+      margin-bottom: 16px;
+      padding: 20px 24px;
+      background: linear-gradient(135deg, #fff9f0 0%, #fff 100%);
+      border-left: 5px solid #eac159;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(139, 0, 0, 0.08);
+      text-align: left;
+    }
+    #summary .summary-lead-body {
+      display: block;
+      margin-top: 0;
+    }
+    #summary .summary-note {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a2e;
+      line-height: 1.7;
+      margin: 0;
+      padding: 18px 28px 20px;
+      background: #fff;
+      border: 2px solid #eac159;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    @media (max-width: 768px) {
+      #summary .summary-hero-band { height: 36px; }
+      #summary .summary-gold-band { height: 36px; }
+      #summary .summary-label-box { font-size: 16px; padding: 8px 20px; }
+    }
+
+    /* ========== 無料で参加申し込み（確かな実績と信頼トンマナ） ========== */
+    #form.lp-section { padding: 0; overflow: visible; background: #f8f5f0; border-bottom: 1px solid #e2e8f0; }
+    #form .form-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #form .form-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #form .form-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #form .form-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #form .form-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #form .form-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px 56px;
+      text-align: center;
+    }
+    /* 申し込みCTAカード（添付画像デザイン：暗いグラデ＋ライムグリーン枠） */
+    #form .form-cta-card {
+      max-width: 520px;
+      margin: 0 auto;
+      padding: 36px 32px 32px;
+      background: radial-gradient(ellipse 120% 100% at 0% 0%, #1e293b 0%, #1a1a2e 40%, #2d1b2d 75%, #3d1a2a 100%);
+      border: 3px solid #66ff33;
+      border-radius: 20px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+      text-align: center;
+    }
+    #form .form-cta-card .form-title {
+      font-size: clamp(20px, 2.8vw, 24px);
+      font-weight: 800;
+      color: #fff;
+      margin: 0 0 24px;
+      line-height: 1.5;
+      border: none;
+      padding: 0;
+    }
+    #form .form-cta-lead {
+      font-size: clamp(17px, 2.2vw, 19px);
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 16px;
+      line-height: 1.6;
+    }
+    #form .form-cta-note {
+      font-size: 15px;
+      color: rgba(255,255,255,0.95);
+      line-height: 1.75;
+      margin: 0 0 28px;
+    }
+    #form .form-cta-btn-wrap { margin: 0; }
+    #form .form-cta-btn {
+      display: inline-block;
+      font-size: clamp(18px, 2.4vw, 20px);
+      font-weight: 800;
+      color: #fff;
+      background: linear-gradient(90deg, #5dd88a 0%, #2d9d5c 50%, #1e7a45 100%);
+      padding: 18px 44px;
+      border-radius: 12px;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      box-shadow: 0 6px 20px rgba(45, 157, 92, 0.4);
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    #form .form-cta-btn:hover { opacity: 0.95; transform: scale(1.02); }
+    @media (max-width: 768px) {
+      #form .form-hero-band { height: 36px; }
+      #form .form-gold-band { height: 36px; }
+      #form .form-label-box { font-size: 16px; padding: 8px 20px; }
+      #form .form-cta-card { padding: 28px 24px 28px; border-radius: 16px; }
+      #form .form-cta-btn { padding: 16px 36px; border-radius: 10px; }
+    }
+
+    /* ========== CTAボタン アニメーション（申し込みボタンであることがわかるように） ========== */
+    @keyframes cta-btn-pulse {
+      0%, 100% {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 0 0 0 rgba(89, 234, 140, 0.5);
+        transform: scale(1);
+      }
+      50% {
+        box-shadow: 0 4px 20px rgba(0,0,0,0.25), 0 0 20px 4px rgba(89, 234, 140, 0.4);
+        transform: scale(1.02);
+      }
+    }
+    .lp-cta-inline-btn,
+    #form .form-cta-btn {
+      animation: cta-btn-pulse 2s ease-in-out infinite;
+    }
+    .lp-cta-inline-btn:hover,
+    #form .form-cta-btn:hover {
+      animation: none;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+      transform: scale(1.02);
+    }
+
+    /* ========== 共通CTAブロック（申し込みセクションと同じデザイン） ========== */
+    .lp-cta-inline {
+      max-width: 520px;
+      margin: 24px auto 32px;
+      padding: 36px 32px 32px;
+      background: radial-gradient(ellipse 120% 100% at 0% 0%, #1e293b 0%, #1a1a2e 40%, #2d1b2d 75%, #3d1a2a 100%);
+      border: 3px solid #66ff33;
+      border-radius: 20px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+      text-align: center;
+    }
+    .lp-cta-inline-lead {
+      font-size: clamp(17px, 2.2vw, 19px);
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 16px;
+      line-height: 1.6;
+    }
+    .lp-cta-inline-note {
+      font-size: 15px;
+      color: rgba(255,255,255,0.95);
+      margin: 0 0 28px;
+      line-height: 1.75;
+    }
+    .lp-cta-inline-btn-wrap { margin: 0; }
+    .lp-cta-inline-btn {
+      display: inline-block;
+      font-size: clamp(18px, 2.4vw, 20px);
+      font-weight: 800;
+      color: #fff;
+      background: linear-gradient(90deg, #5dd88a 0%, #2d9d5c 50%, #1e7a45 100%);
+      padding: 18px 44px;
+      border-radius: 12px;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      box-shadow: 0 6px 20px rgba(45, 157, 92, 0.4);
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .lp-cta-inline-btn:hover { opacity: 0.95; }
+    @media (max-width: 768px) {
+      .lp-cta-inline { margin: 20px auto 28px; padding: 28px 24px 28px; border-radius: 16px; }
+      .lp-cta-inline-btn { padding: 16px 36px; border-radius: 10px; }
+    }
+
+    /* ========== FAQ（確かな実績と信頼トンマナ） ========== */
+    #faq.lp-section { padding: 0; overflow: visible; background: #f8f5f0; border-bottom: 1px solid #e2e8f0; }
+    #faq .faq-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #faq .faq-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #faq .faq-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #faq .faq-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #faq .faq-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #faq .faq-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px 56px;
+    }
+    #faq .faq-list { padding: 0; margin: 0; }
+    #faq .faq-item {
+      background: #282828;
+      border: 3px solid #eac159;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    #faq .faq-item:last-child { margin-bottom: 0; }
+    #faq .faq-q {
+      font-size: 16px;
+      font-weight: 700;
+      color: #eac159;
+      margin: 0 0 12px;
+    }
+    #faq .faq-a {
+      font-size: 15px;
+      line-height: 1.85;
+      color: #e8e8e8;
+      margin: 0;
+    }
+    @media (max-width: 768px) {
+      #faq .faq-hero-band { height: 36px; }
+      #faq .faq-gold-band { height: 36px; }
+      #faq .faq-label-box { font-size: 16px; padding: 8px 20px; }
+      #faq .faq-item { padding: 20px 20px; }
+    }
+
+    footer {
+      background: #2d3748;
+      color: #a0aec0;
+      padding: 24px 20px;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+    footer a { color: #90cdf4; text-decoration: none; }
+
+    /* ========== こんなお悩みセクション（権威性・安定感・信頼性） ========== */
+    #kadai.lp-section { padding: 0; overflow: visible; }
+    #kadai .kadai-worry-wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      background-color: #f8f5f0;
+      padding: 0 20px;
+      overflow: visible;
+    }
+    /* 赤帯（ネイビー→赤グラデでヒーローと統一） */
+    #kadai .kadai-hero-band {
+      height: 44px;
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      border-bottom: 3px solid #c4a76b;
+    }
+    #kadai .kadai-top-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #kadai .kadai-main-content {
+      padding: 48px 20px 56px;
+      text-align: center;
+    }
+    #kadai .kadai-title-box-container {
+      display: flex;
+      justify-content: center;
+      margin-top: -26px;
+      margin-bottom: 24px;
+    }
+    /* ラベル：落ち着いたトーンで権威性 */
+    #kadai .kadai-title-box {
+      background-color: #8b7355;
+      color: #fff;
+      padding: 8px 32px;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      border: 1px solid #6b5b45;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      position: relative;
+    }
+    #kadai .kadai-title-box::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #8b7355;
+    }
+    /* 見出し：破線やめ・すっきりしたラインで信頼感 */
+    #kadai .kadai-main-title {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 0;
+      padding-bottom: 14px;
+      display: inline-block;
+      position: relative;
+      color: #1a1a2e;
+      letter-spacing: 0.02em;
+      border-bottom: 2px solid #c4a76b;
+    }
+    #kadai .marker-red {
+      text-decoration: none;
+      color: inherit;
+    }
+    #kadai .kadai-sub-title {
+      font-size: 20px;
+      font-weight: 500;
+      color: #333;
+      margin-bottom: 48px;
+      margin-top: 16px;
+      letter-spacing: 0.04em;
+    }
+    #kadai .kadai-main-content { overflow: visible; }
+    #kadai .kadai-checklist-box-container {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 380px;
+      margin-top: 56px;
+    }
+    /* コンテンツボックス：細めの枠・ソフトな影で安定感 */
+    #kadai .kadai-checklist-box {
+      background-color: #2a2a2a;
+      border: 2px solid #c4a76b;
+      border-bottom: 2px solid #c4a76b;
+      border-radius: 6px 6px 0 0;
+      padding: 44px 40px;
+      width: 100%;
+      max-width: 960px;
+      position: relative;
+      text-align: left;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+      overflow: visible;
+    }
+    /* 写真：枠なし・やや控えめに配置 */
+    #kadai .kadai-person-image {
+      position: absolute;
+      top: -60px;
+      right: 50px;
+      width: 480px;
+      height: 640px;
+      object-fit: contain;
+      object-position: center top;
+      z-index: 1;
+    }
+    /* リスト：ゴールド・クリームで落ち着いたトーン */
+    #kadai ul.kadai-checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      color: #e4ddd0;
+      font-size: 17px;
+      font-weight: 600;
+      position: relative;
+      z-index: 2;
+      width: 50%;
+      max-width: 400px;
+      line-height: 1.65;
+    }
+    #kadai ul.kadai-checklist li {
+      margin-bottom: 18px;
+      padding-left: 36px;
+      position: relative;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding-bottom: 18px;
+    }
+    #kadai ul.kadai-checklist li:last-child { border-bottom: none; padding-bottom: 0; }
+    #kadai ul.kadai-checklist li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 2px;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #c4a76b;
+      background-color: transparent;
+      border-radius: 2px;
+    }
+    #kadai ul.kadai-checklist li::after {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 5px;
+      width: 6px;
+      height: 12px;
+      border: solid #c4a76b;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    #kadai .kadai-highlight-red { color: #e8dcc8; font-weight: 700; }
+    #kadai .kadai-lead-after {
+      font-size: 1rem;
+      color: #4a5568;
+      text-align: center;
+      margin-top: 24px;
+    }
+
+    /* 矢印エリア（悩みボックス直下に接続・三角形と一体化） */
+    .kadai-arrow-wrap {
+      text-align: center;
+      padding: 0;
+      /* ボックス直下に接続 */
+      margin-top: -378px;
+      background: transparent;
+      position: relative;
+      z-index: 2;
+    }
+    /* 金色の逆台形（上幅広・下幅狭でボックスと解決をつなぐ） */
+    .kadai-arrow-wrap .kadai-arrow-body {
+      width: 100%;
+      max-width: 960px;
+      height: 56px;
+      margin: 0 auto;
+      background: #eac159;
+      clip-path: polygon(15% 0, 85% 0, 65% 100%, 35% 100%);
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.12));
+    }
+
+    /* 解決セクション（参照HTML：黒帯・金三角・強調ボックス） */
+    #kadai-solution {
+      background: #f8f5f0;
+      padding: 20px 0 50px;
+      overflow-x: hidden;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    #kadai-solution .kadai-solution-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+    }
+    #kadai-solution .top-banner-container {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    #kadai-solution .top-gold-triangle {
+      width: 0;
+      height: 0;
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-top: 50px solid #eac159;
+      position: relative;
+      top: 0;
+      z-index: 2;
+    }
+    #kadai-solution .solution-content {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    #kadai-solution .solution-main-text {
+      font-size: 36px;
+      font-weight: bold;
+      color: #1a1a2e;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+    #kadai-solution .highlight-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0 20px;
+    }
+    #kadai-solution .highlight-box-wrap {
+      display: inline-block;
+      position: relative;
+      margin-bottom: 10px;
+    }
+    #kadai-solution .highlight-box {
+      background-color: #bdae7d;
+      color: #fff;
+      font-size: 36px;
+      font-weight: bold;
+      padding: 10px 30px;
+      position: relative;
+      border: 2px solid #a93838;
+    }
+    /* 赤いL字装飾（左上） */
+    #kadai-solution .highlight-box-wrap::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: -8px;
+      width: 24px;
+      height: 24px;
+      border-top: 4px solid #a93838;
+      border-left: 4px solid #a93838;
+      z-index: 1;
+    }
+    /* 赤いL字装飾（右下） */
+    #kadai-solution .highlight-box-wrap::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      right: -8px;
+      width: 24px;
+      height: 24px;
+      border-bottom: 4px solid #a93838;
+      border-right: 4px solid #a93838;
+      z-index: 1;
+    }
+    #kadai-solution .highlight-box::before,
+    #kadai-solution .highlight-box::after {
+      content: none;
+    }
+    #kadai-solution .highlight-suffix {
+      font-size: 36px;
+      font-weight: bold;
+      color: #1a1a2e;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 768px) {
+      #kadai-solution .solution-main-text,
+      #kadai-solution .highlight-box,
+      #kadai-solution .highlight-suffix { font-size: 26px; }
+      #kadai-solution .top-gold-triangle {
+        border-left-width: 100px;
+        border-right-width: 100px;
+        border-top-width: 35px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #kadai .kadai-hero-band { height: 32px; }
+      #kadai .kadai-top-gold-band { height: 36px; }
+      #kadai .kadai-main-content { padding: 36px 16px 44px; }
+      #kadai .kadai-title-box { font-size: 15px; padding: 6px 24px; }
+      #kadai .kadai-main-title { font-size: 24px; padding-bottom: 10px; }
+      #kadai .kadai-sub-title { font-size: 17px; margin-bottom: 36px; margin-top: 12px; }
+      #kadai .kadai-checklist-box-container { padding-bottom: 50px; margin-top: 40px; }
+      #kadai .kadai-checklist-box { max-width: 650px; padding: 28px 20px; }
+      #kadai ul.kadai-checklist { width: 100%; max-width: none; font-size: 15px; }
+      #kadai .kadai-person-image {
+        width: 260px;
+        height: 340px;
+        top: -32px;
+        right: 16px;
+        opacity: 0.35;
+        object-fit: contain;
+        object-position: center top;
+      }
+      .kadai-arrow-wrap { margin-top: -24px; }
+      .kadai-arrow-wrap .kadai-arrow-body {
+        max-width: 100%;
+        height: 40px;
+        clip-path: polygon(20% 0, 80% 0, 65% 100%, 35% 100%);
+      }
+    }
+
+    /* ========== 丸一式 利益逆算メソッド ========== */
+    #method.lp-section { padding: 0; overflow: visible; background: #fff; border-bottom: 1px solid #e2e8f0; }
+    #method .method-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px 52px;
+      text-align: center;
+    }
+    #method .method-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #method .method-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #method .method-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #method .method-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #method .method-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #method .method-title {
+      font-size: clamp(24px, 4vw, 32px);
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 20px;
+      line-height: 1.4;
+    }
+    #method .method-lead {
+      font-size: 16px;
+      color: #4a5568;
+      margin: 0 0 40px;
+      line-height: 1.85;
+    }
+    #method .method-steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 36px;
+      display: grid;
+      gap: 24px;
+      text-align: left;
+    }
+    #method .method-step {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+      background: #282828;
+      border: 3px solid #eac159;
+      border-radius: 12px;
+      padding: 24px 28px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    #method .method-step-num {
+      flex-shrink: 0;
+      width: 52px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f172a 0%, #2d1b2d 50%, #5c1a1a 100%);
+      color: #eac159;
+      font-size: 18px;
+      font-weight: 800;
+      border-radius: 10px;
+      border: 2px solid #eac159;
+    }
+    #method .method-step-body { flex: 1; min-width: 0; }
+    #method .method-step-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #eac159;
+      margin: 0 0 10px;
+    }
+    #method .method-step-text {
+      font-size: 15px;
+      line-height: 1.8;
+      color: #e8e8e8;
+      margin: 0;
+    }
+    #method .method-closing {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 24px 28px;
+      background: linear-gradient(135deg, #fdf9ef 0%, #f5ecd6 100%);
+      border: 2px solid #c4a76b;
+      border-radius: 12px;
+    }
+    #method .method-closing-text {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin: 0;
+      line-height: 1.7;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      #method .method-hero-band { height: 36px; }
+      #method .method-gold-band { height: 36px; }
+      #method .method-label-box { font-size: 16px; padding: 8px 20px; }
+      #method .method-title { font-size: 22px; margin-bottom: 16px; }
+      #method .method-lead { font-size: 15px; margin-bottom: 32px; }
+      #method .method-steps { gap: 18px; margin-bottom: 28px; }
+      #method .method-step { flex-direction: column; gap: 16px; padding: 20px 20px; }
+      #method .method-step-num { width: 44px; height: 44px; font-size: 16px; }
+      #method .method-step-title { font-size: 16px; }
+      #method .method-step-text { font-size: 14px; }
+      #method .method-closing { padding: 20px 20px; }
+      #method .method-closing-text { font-size: 16px; }
+    }
+
+    /* ========== サクセスロードマップ（ヒーロー・悩みセクション踏襲・大胆デザイン） ========== */
+    #kaiketsu.lp-section { padding: 0; overflow: visible; background: #f8f5f0; border-bottom: 1px solid #e2e8f0; }
+    #kaiketsu .roadmap-wrap {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #f8f5f0;
+      overflow: visible;
+    }
+    /* 上部：ネイビー→赤グラデ（ヒーローと統一） */
+    #kaiketsu .roadmap-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+      position: relative;
+    }
+    /* 金色帯（悩みセクション風） */
+    #kaiketsu .roadmap-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #kaiketsu .roadmap-main {
+      padding: 0 20px 50px;
+      text-align: center;
+    }
+    /* ラベルボックス「丸一が9年間で磨いた」（こんな風） */
+    #kaiketsu .roadmap-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 20px;
+    }
+    #kaiketsu .roadmap-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 36px;
+      font-size: 20px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #kaiketsu .roadmap-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    /* メインタイトル「サクセスロードマップ」 */
+    #kaiketsu .roadmap-title {
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 900;
+      color: #1a1a2e;
+      margin-bottom: 8px;
+      line-height: 1.3;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    #kaiketsu .roadmap-title .roadmap-title-accent {
+      color: #8b0000;
+      font-size: 1.05em;
+    }
+    #kaiketsu .roadmap-lead {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 28px;
+      line-height: 1.7;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* 5ステップの流れボックス（悩みボックス風・黒＋金枠） */
+    #kaiketsu .roadmap-flow-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 36px;
+    }
+    #kaiketsu .roadmap-flow-box {
+      background-color: #282828;
+      border: 3px solid #eac159;
+      border-radius: 12px;
+      padding: 28px 24px;
+      width: 100%;
+      max-width: 920px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    }
+    #kaiketsu .roadmap-flow-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 6px 4px;
+    }
+    #kaiketsu .roadmap-step {
+      display: inline-flex;
+      align-items: center;
+      background: linear-gradient(to bottom, #c4a76b 0%, #a68a4f 100%);
+      color: #222;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-radius: 6px;
+      border: 2px solid #d4b77b;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    #kaiketsu .roadmap-arrow {
+      color: #eac159;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 0 4px;
+      line-height: 1;
+    }
+    /* 締めの一文エリア */
+    #kaiketsu .roadmap-closing {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    #kaiketsu .roadmap-closing-line1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+    #kaiketsu .roadmap-closing-box {
+      display: inline-block;
+      background: linear-gradient(to bottom, #c4a76b 0%, #a68a4f 100%);
+      color: #222;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 12px 28px;
+      border: 2px solid #d4b77b;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+    /* 5つのステップ（同一セクション内） */
+    #kaiketsu .roadmap-detail-heading {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin: 40px 0 20px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #c4a76b;
+      display: inline-block;
+    }
+    #kaiketsu .roadmap-detail-card {
+      background-color: #282828;
+      border: 2px solid #eac159;
+      border-radius: 12px;
+      padding: 28px 32px;
+      max-width: 920px;
+      margin: 0 auto 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      text-align: left;
+    }
+    #kaiketsu .roadmap-detail-steps {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    #kaiketsu .roadmap-detail-steps li {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      color: #e4ddd0;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+    #kaiketsu .roadmap-detail-steps li:last-child { border-bottom: none; }
+    #kaiketsu .roadmap-detail-steps .step-num {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to bottom, #c4a76b 0%, #a68a4f 100%);
+      color: #222;
+      font-size: 14px;
+      font-weight: 800;
+      border-radius: 6px;
+      border: 2px solid #d4b77b;
+    }
+    #kaiketsu .roadmap-detail-steps .step-body strong {
+      display: block;
+      color: #eac159;
+      font-size: 17px;
+      margin-bottom: 4px;
+    }
+    #kaiketsu .roadmap-detail-note-wrap {
+      max-width: 640px;
+      margin: 28px auto 0;
+      padding: 20px 28px 22px;
+      background: linear-gradient(135deg, #fdf9ef 0%, #f5ecd6 100%);
+      border: 2px solid #c4a76b;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(196, 167, 107, 0.25);
+      text-align: center;
+      position: relative;
+    }
+    #kaiketsu .roadmap-detail-note {
+      font-size: 18px;
+      color: #2d2d2d;
+      font-weight: 700;
+      line-height: 1.6;
+      margin: 0;
+      letter-spacing: 0.02em;
+    }
+    #kaiketsu .roadmap-detail-note-lead {
+      color: #5c4a2a;
+      display: block;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      letter-spacing: 0.04em;
+    }
+    @media (max-width: 768px) {
+      #kaiketsu .roadmap-hero-band { height: 36px; }
+      #kaiketsu .roadmap-gold-band { height: 36px; }
+      #kaiketsu .roadmap-label-box { font-size: 16px; padding: 8px 24px; }
+      #kaiketsu .roadmap-title { font-size: 26px; }
+      #kaiketsu .roadmap-lead { font-size: 16px; }
+      #kaiketsu .roadmap-flow-box { padding: 20px 16px; }
+      #kaiketsu .roadmap-step { font-size: 13px; padding: 8px 12px; }
+      #kaiketsu .roadmap-arrow { font-size: 16px; }
+      #kaiketsu .roadmap-closing-line1 { font-size: 18px; }
+      #kaiketsu .roadmap-closing-box { font-size: 17px; padding: 10px 20px; }
+      #kaiketsu .roadmap-detail-heading { font-size: 18px; margin: 32px 0 16px; }
+      #kaiketsu .roadmap-detail-card { padding: 20px 20px; }
+      #kaiketsu .roadmap-detail-steps li { font-size: 15px; padding: 14px 0; }
+      #kaiketsu .roadmap-detail-steps .step-num { width: 36px; height: 36px; font-size: 12px; }
+      #kaiketsu .roadmap-detail-note-wrap { margin-top: 24px; padding: 16px 20px 18px; }
+      #kaiketsu .roadmap-detail-note { font-size: 16px; }
+      #kaiketsu .roadmap-detail-note-lead { font-size: 14px; }
+    }
+
+    /* ========== このセミナーでお伝えすること（メリット・ベネフィット） ========== */
+    #benefit.lp-section { padding: 0; overflow: visible; background: #f8f5f0; border-bottom: 1px solid #e2e8f0; }
+    #benefit .benefit-wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 20px 48px;
+      text-align: center;
+    }
+    #benefit .benefit-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #benefit .benefit-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #benefit .benefit-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #benefit .benefit-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #benefit .benefit-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #benefit .benefit-title {
+      font-size: clamp(24px, 4vw, 32px);
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 8px;
+      line-height: 1.35;
+    }
+    #benefit .benefit-lead {
+      font-size: 17px;
+      color: #333;
+      margin: 0 0 12px;
+      line-height: 1.6;
+    }
+    #benefit .benefit-sub {
+      font-size: 15px;
+      color: #5c5c5c;
+      margin: 0 0 28px;
+      line-height: 1.65;
+      max-width: 520px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #benefit .benefit-card {
+      background-color: #282828;
+      border: 3px solid #eac159;
+      border-radius: 12px;
+      padding: 28px 28px 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      text-align: left;
+    }
+    #benefit .benefit-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    #benefit .benefit-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(234, 193, 89, 0.3);
+      font-size: 16px;
+      line-height: 1.6;
+      color: #e8e8e8;
+    }
+    #benefit .benefit-item:last-child { border-bottom: none; padding-bottom: 0; }
+    #benefit .benefit-item:first-child { padding-top: 0; }
+    #benefit .benefit-item-num {
+      flex-shrink: 0;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f172a 0%, #2d1b2d 50%, #5c1a1a 100%);
+      color: #eac159;
+      font-size: 16px;
+      font-weight: 800;
+      border-radius: 8px;
+      border: 2px solid #eac159;
+    }
+    #benefit .benefit-item-body { flex: 1; min-width: 0; }
+    #benefit .benefit-item-label {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 700;
+      color: #eac159;
+      margin-bottom: 6px;
+      letter-spacing: 0.04em;
+    }
+    #benefit .benefit-item-text { display: block; }
+    #benefit .benefit-note {
+      font-size: 15px;
+      color: #5c5c5c;
+      margin: 24px 0 0;
+      font-weight: 600;
+    }
+    @media (max-width: 768px) {
+      #benefit .benefit-hero-band { height: 36px; }
+      #benefit .benefit-gold-band { height: 36px; }
+      #benefit .benefit-label-box { font-size: 16px; padding: 8px 20px; }
+      #benefit .benefit-title { font-size: 22px; }
+      #benefit .benefit-lead { font-size: 15px; margin-bottom: 8px; }
+      #benefit .benefit-sub { font-size: 14px; margin-bottom: 22px; }
+      #benefit .benefit-card { padding: 20px 18px 18px; }
+      #benefit .benefit-item { gap: 14px; padding: 18px 0; font-size: 15px; }
+      #benefit .benefit-item-num { width: 38px; height: 38px; font-size: 14px; }
+    }
+
+    /* ========== セミナーで得られる3つの成果 + 参加特典 ========== */
+    #outcomes.lp-section { padding: 0; overflow: visible; background: #f8f5f0; border-bottom: 1px solid #e2e8f0; }
+    #outcomes .outcomes-wrap {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 0 20px 48px;
+      text-align: center;
+    }
+    #outcomes .outcomes-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #outcomes .outcomes-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #outcomes .outcomes-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #outcomes .outcomes-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #outcomes .outcomes-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #outcomes .outcomes-title {
+      font-size: clamp(22px, 3.5vw, 28px);
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 12px;
+      line-height: 1.4;
+    }
+    #outcomes .outcomes-lead {
+      font-size: 16px;
+      color: #333;
+      margin: 0 0 6px;
+      line-height: 1.65;
+    }
+    #outcomes .outcomes-sub {
+      font-size: 15px;
+      font-weight: 700;
+      color: #8b0000;
+      margin: 0 0 32px;
+    }
+    #outcomes .outcomes-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 40px;
+      display: grid;
+      gap: 20px;
+      text-align: left;
+    }
+    #outcomes .outcomes-item {
+      background: #282828;
+      border: 3px solid #eac159;
+      border-radius: 12px;
+      padding: 22px 26px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    #outcomes .outcomes-item-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: #eac159;
+      margin: 0 0 10px;
+    }
+    #outcomes .outcomes-item-text {
+      font-size: 15px;
+      line-height: 1.8;
+      color: #e8e8e8;
+      margin: 0;
+    }
+    #outcomes .outcomes-tokuten {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 24px 28px;
+      background: #fff;
+      border: 3px solid #c4a76b;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    #outcomes .outcomes-tokuten-heading {
+      font-size: 14px;
+      font-weight: 700;
+      color: #8b0000;
+      margin: 0 0 8px;
+      letter-spacing: 0.1em;
+    }
+    #outcomes .outcomes-tokuten-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 14px;
+    }
+    #outcomes .outcomes-tokuten-desc {
+      font-size: 14px;
+      line-height: 1.8;
+      color: #4a5568;
+      margin: 0 0 18px;
+      text-align: left;
+    }
+    #outcomes .outcomes-tokuten-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px 24px;
+    }
+    #outcomes .outcomes-tokuten-features li {
+      font-size: 15px;
+      font-weight: 700;
+      color: #8b0000;
+      padding: 8px 16px;
+      background: linear-gradient(135deg, #fdf9ef 0%, #f5ecd6 100%);
+      border: 2px solid #c4a76b;
+      border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+      #outcomes .outcomes-hero-band { height: 36px; }
+      #outcomes .outcomes-gold-band { height: 36px; }
+      #outcomes .outcomes-label-box { font-size: 16px; padding: 8px 20px; }
+      #outcomes .outcomes-title { font-size: 20px; margin-bottom: 10px; }
+      #outcomes .outcomes-lead { font-size: 15px; }
+      #outcomes .outcomes-sub { margin-bottom: 24px; }
+      #outcomes .outcomes-list { gap: 16px; margin-bottom: 32px; }
+      #outcomes .outcomes-item { padding: 18px 20px; }
+      #outcomes .outcomes-item-title { font-size: 16px; }
+      #outcomes .outcomes-item-text { font-size: 14px; }
+      #outcomes .outcomes-tokuten { padding: 20px 20px; }
+      #outcomes .outcomes-tokuten-title { font-size: 18px; }
+      #outcomes .outcomes-tokuten-features { flex-direction: column; gap: 10px; }
+    }
+
+    /* ========== 一般的な財務セミナーとの比較 ========== */
+    #compare.lp-section { padding: 0; overflow: visible; background: #fff; border-bottom: 1px solid #e2e8f0; }
+    #compare .compare-wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 0 20px 56px;
+      text-align: center;
+    }
+    #compare .compare-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #compare .compare-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #compare .compare-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #compare .compare-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #compare .compare-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #compare .compare-title {
+      font-size: clamp(22px, 3.5vw, 28px);
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 16px;
+      line-height: 1.4;
+    }
+    #compare .compare-lead {
+      font-size: 16px;
+      color: #333;
+      margin: 0 0 32px;
+      line-height: 1.75;
+    }
+    #compare .compare-table-wrap {
+      overflow-x: auto;
+      margin-bottom: 32px;
+      border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+    }
+    #compare .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+      min-width: 560px;
+    }
+    #compare .compare-table th,
+    #compare .compare-table td {
+      padding: 16px 20px;
+      text-align: left;
+      vertical-align: middle;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    #compare .compare-table tbody tr:last-child td { border-bottom: none; }
+    #compare .compare-th-item,
+    #compare .compare-td-item {
+      background: #f7fafc;
+      font-weight: 700;
+      color: #2d3748;
+      width: 22%;
+    }
+    #compare .compare-th-general,
+    #compare .compare-td-general {
+      background: #f8f5f0;
+      color: #4a5568;
+      width: 39%;
+    }
+    #compare .compare-th-maruichi,
+    #compare .compare-td-maruichi {
+      background: linear-gradient(135deg, #2d2828 0%, #1a1a2e 100%);
+      color: #e8e8e8;
+      border-left: 3px solid #eac159;
+      width: 39%;
+    }
+    #compare .compare-th-item,
+    #compare .compare-th-general,
+    #compare .compare-th-maruichi {
+      font-size: 14px;
+      padding: 18px 20px;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    #compare .compare-th-maruichi { border-left-color: #eac159; border-bottom-color: #eac159; }
+    #compare .compare-th-sub {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      opacity: 0.9;
+      margin-top: 4px;
+    }
+    #compare .compare-th-maruichi .compare-th-sub { color: #eac159; }
+    #compare .compare-td-maruichi { font-weight: 500; }
+    #compare .compare-closing-box {
+      max-width: 560px;
+      margin: 0 auto 24px;
+      padding: 24px 28px;
+      background: linear-gradient(135deg, #fdf9ef 0%, #f5ecd6 100%);
+      border: 2px solid #c4a76b;
+      border-radius: 12px;
+      text-align: center;
+    }
+    #compare .compare-closing-main {
+      font-size: 18px;
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 12px;
+      line-height: 1.5;
+    }
+    #compare .compare-closing-sub {
+      font-size: 15px;
+      color: #333;
+      margin: 0;
+      line-height: 1.7;
+    }
+    #compare .compare-proof-wrap {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 22px 32px 24px;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 35%, #2d1b2d 70%, #5c1a1a 100%);
+      border: 3px solid #eac159;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.4);
+      text-align: center;
+    }
+    #compare .compare-proof {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      margin: 0;
+      line-height: 1.6;
+      letter-spacing: 0.03em;
+    }
+    #compare .compare-proof-num {
+      color: #eac159;
+      font-size: 1.15em;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+    }
+    @media (max-width: 768px) {
+      #compare .compare-hero-band { height: 36px; }
+      #compare .compare-gold-band { height: 36px; }
+      #compare .compare-label-box { font-size: 16px; padding: 8px 20px; }
+      #compare .compare-title { font-size: 20px; margin-bottom: 12px; }
+      #compare .compare-lead { font-size: 15px; margin-bottom: 24px; }
+      #compare .compare-table th,
+      #compare .compare-table td { padding: 12px 14px; font-size: 14px; }
+      #compare .compare-table-wrap { margin-bottom: 24px; }
+      #compare .compare-closing-box { padding: 20px 20px; }
+      #compare .compare-closing-main { font-size: 16px; }
+      #compare .compare-closing-sub { font-size: 14px; }
+      #compare .compare-proof-wrap { padding: 16px 20px 18px; }
+      #compare .compare-proof { font-size: 16px; }
+    }
+
+    /* ========== 確かな実績と信頼 ========== */
+    #jisseki.lp-section { padding: 0; overflow: visible; background: #f8f5f0; border-bottom: 1px solid #e2e8f0; }
+    #jisseki .jisseki-wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px 56px;
+      text-align: center;
+    }
+    #jisseki .jisseki-hero-band {
+      background: linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #2d1b2d 70%, #5c1a1a 100%);
+      height: 50px;
+      border-bottom: 4px solid #c4a76b;
+    }
+    #jisseki .jisseki-gold-band {
+      height: 48px;
+      background: linear-gradient(135deg, #d4af37 25%, #eac159 50%, #d4af37 75%);
+      background-size: 20px 20px;
+    }
+    #jisseki .jisseki-label-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-bottom: 16px;
+    }
+    #jisseki .jisseki-label-box {
+      background-color: #bdae7d;
+      color: #fff;
+      padding: 10px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #9a8c66;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    #jisseki .jisseki-label-box::after {
+      content: '';
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      border-top: 12px solid #bdae7d;
+    }
+    #jisseki .jisseki-title {
+      font-size: clamp(22px, 3.5vw, 28px);
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 36px;
+      line-height: 1.45;
+    }
+    #jisseki .jisseki-stats {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 48px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    #jisseki .jisseki-stat {
+      background: #fff;
+      border: 2px solid #c4a76b;
+      border-radius: 12px;
+      padding: 24px 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    #jisseki .jisseki-stat-num {
+      display: block;
+      font-size: clamp(28px, 4vw, 36px);
+      font-weight: 800;
+      color: #8b0000;
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+    #jisseki .jisseki-stat-label {
+      display: block;
+      font-size: 15px;
+      font-weight: 700;
+      color: #2d3748;
+      margin-bottom: 4px;
+    }
+    #jisseki .jisseki-stat-sub {
+      display: block;
+      font-size: 12px;
+      color: #718096;
+    }
+    #jisseki .jisseki-voice-heading {
+      font-size: 20px;
+      font-weight: 800;
+      color: #1a1a2e;
+      margin: 0 0 24px;
+    }
+    #jisseki .jisseki-voices {
+      display: grid;
+      gap: 24px;
+      margin-bottom: 40px;
+      text-align: left;
+    }
+    #jisseki .jisseki-voice-card {
+      background: #282828;
+      border: 3px solid #eac159;
+      border-radius: 12px;
+      padding: 24px 28px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    #jisseki .jisseki-voice-text {
+      font-size: 16px;
+      line-height: 1.85;
+      color: #e8e8e8;
+      margin: 0 0 20px;
+    }
+    #jisseki .jisseki-voice-attr {
+      font-size: 15px;
+      font-weight: 700;
+      color: #eac159;
+      margin: 0 0 4px;
+    }
+    #jisseki .jisseki-voice-sub {
+      font-size: 14px;
+      color: #a0aec0;
+      margin: 0;
+    }
+    #jisseki .jisseki-cta-box {
+      max-width: 540px;
+      margin: 0 auto 20px;
+      padding: 32px 36px 28px;
+      background: linear-gradient(145deg, #0f172a 0%, #1e293b 35%, #2d1b2d 70%, #5c1a1a 100%);
+      border: 2px solid #eac159;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(15, 23, 42, 0.4), 0 0 0 1px rgba(234, 193, 89, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+    #jisseki .jisseki-cta-box::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, #eac159, transparent);
+      opacity: 0.8;
+    }
+    #jisseki .jisseki-cta-your-turn {
+      font-size: clamp(22px, 3.2vw, 28px);
+      font-weight: 900;
+      color: #eac159;
+      margin: 0 0 20px;
+      line-height: 1.4;
+      letter-spacing: 0.06em;
+      text-align: center;
+    }
+    #jisseki .jisseki-cta-main {
+      font-size: clamp(17px, 2.2vw, 19px);
+      font-weight: 700;
+      color: rgba(255,255,255,0.95);
+      margin: 0 0 20px;
+      line-height: 1.55;
+      letter-spacing: 0.02em;
+      text-align: center;
+    }
+    #jisseki .jisseki-cta-accent {
+      color: #fff;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      display: block;
+      margin-bottom: 4px;
+    }
+    #jisseki .jisseki-cta-next-step {
+      font-size: 15px;
+      font-weight: 700;
+      color: #eac159;
+      margin: 0;
+      letter-spacing: 0.05em;
+      text-align: center;
+    }
+    #jisseki .jisseki-cta-next-step::after {
+      content: ' ↓';
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    #jisseki .jisseki-cta-arrow {
+      width: 2px;
+      height: 24px;
+      margin: 0 auto 8px;
+      background: linear-gradient(180deg, #eac159 0%, rgba(234, 193, 89, 0.3) 100%);
+      border-radius: 1px;
+    }
+    @media (max-width: 768px) {
+      #jisseki .jisseki-hero-band { height: 36px; }
+      #jisseki .jisseki-gold-band { height: 36px; }
+      #jisseki .jisseki-label-box { font-size: 16px; padding: 8px 20px; }
+      #jisseki .jisseki-title { font-size: 20px; margin-bottom: 28px; }
+      #jisseki .jisseki-stats { grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 36px; }
+      #jisseki .jisseki-stat { padding: 18px 12px; }
+      #jisseki .jisseki-stat-num { font-size: 24px; }
+      #jisseki .jisseki-voice-heading { font-size: 18px; margin-bottom: 18px; }
+      #jisseki .jisseki-voices { gap: 18px; margin-bottom: 32px; }
+      #jisseki .jisseki-voice-card { padding: 20px 20px; }
+      #jisseki .jisseki-voice-text { font-size: 15px; }
+      #jisseki .jisseki-cta-box { padding: 26px 24px 24px; margin-bottom: 16px; }
+      #jisseki .jisseki-cta-your-turn { font-size: 20px; margin-bottom: 16px; }
+      #jisseki .jisseki-cta-main { font-size: 16px; margin-bottom: 16px; }
+    }
+  </style>
+</head>
+<body id="top">
+
+  <div class="lp-wrap">
+    <!-- 1. ヒーローセクション -->
+    <div class="hero-container" id="hero">
+      <section class="top-section">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="hero-label">中小企業経営者向け 財務実装ウェブセミナー</p>
+            <p class="hero-headline1">節税やBSの読み方を学んでも、<br>会社は変わらない。</p>
+            <h1 class="hero-headline2"><span class="hero-headline2-line1">明日からの「社長の行動」を設計する、</span><br>超・実践的財務講座</h1>
+            <p class="hero-proof">9年で1,200名の経営者が実感。<br>財務は数字ではなく「判断の設計」である。</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="lp-cta-inline">
+      <p class="lp-cta-inline-lead">今すぐ下のボタンからお申し込みください。</p>
+      <p class="lp-cta-inline-note">参加費は無料です。お申し込み後、メールにてZoomのご案内をお送りします。</p>
+      <div class="lp-cta-inline-btn-wrap">
+        <a href="https://aw.monolith-partners.fun/page/euoTb72qUiwb" class="lp-cta-inline-btn">今すぐ無料参加する</a>
+      </div>
+    </div>
+
+    <!-- 2. 課題の共感（権威性・安定感・信頼性） -->
+    <section class="lp-section" id="kadai" style="background: #f8f5f0; border-bottom: 1px solid #e2e8f0;">
+      <div class="kadai-worry-wrap">
+        <div class="kadai-hero-band"></div>
+        <div class="kadai-top-gold-band"></div>
+        <div class="kadai-main-content">
+          <div class="kadai-title-box-container">
+            <div class="kadai-title-box">こんな</div>
+          </div>
+          <h2 class="kadai-main-title">
+            お<span class="marker-red">悩みありません</span>か？
+          </h2>
+          <p class="kadai-sub-title">売上と手元資金が一致しない社長へ</p>
+          <div class="kadai-checklist-box-container">
+            <div class="kadai-checklist-box">
+              <img src="assets/images/kadai-person.png" alt="お悩み" class="kadai-person-image" width="600" height="800">
+              <ul class="kadai-checklist">
+                <li>売上は伸びているのに<span class="kadai-highlight-red">現金が残らない</span></li>
+                <li><span class="kadai-highlight-red">黒字なのに資金繰りが苦しい</span></li>
+                <li><span class="kadai-highlight-red">何から手をつければいいかわからない</span></li>
+                <li><span class="kadai-highlight-red">数字・財務に自信がない</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 矢印（ボックスから接続・三角形モチーフ） -->
+    <div class="kadai-arrow-wrap">
+      <div class="kadai-arrow-body"></div>
+    </div>
+
+    <!-- 解決ができますセクション（黒帯・金三角・強調ボックス） -->
+    <section id="kadai-solution">
+      <div class="kadai-solution-wrap">
+        <div class="top-banner-container">
+          <div class="top-gold-triangle"></div>
+        </div>
+        <div class="solution-content">
+          <h2 class="solution-main-text">その原因と、財務を整えながら売上・利益を伸ばす「順番」を、</h2>
+          <div class="highlight-row">
+            <div class="highlight-box-wrap">
+              <div class="highlight-box">無料セミナーで</div>
+            </div>
+            <div class="highlight-suffix">お伝えします</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="lp-cta-inline">
+      <p class="lp-cta-inline-lead">今すぐ下のボタンからお申し込みください。</p>
+      <p class="lp-cta-inline-note">参加費は無料です。お申し込み後、メールにてZoomのご案内をお送りします。</p>
+      <div class="lp-cta-inline-btn-wrap">
+        <a href="https://aw.monolith-partners.fun/page/euoTb72qUiwb" class="lp-cta-inline-btn">今すぐ無料参加する</a>
+      </div>
+    </div>
+
+    <!-- 受講のメリット（セミナーでお伝えすること・直下に配置） -->
+    <section class="lp-section benefit-section" id="benefit">
+      <div class="benefit-hero-band"></div>
+      <div class="benefit-gold-band"></div>
+      <div class="benefit-wrap">
+        <div class="benefit-label-wrap">
+          <span class="benefit-label-box">受講のメリット</span>
+        </div>
+        <h2 class="benefit-title">このセミナーでお伝えすること</h2>
+        <p class="benefit-lead">参加するとわかる3つのこと</p>
+        <p class="benefit-sub">経営に直結する「気づき」と「次の一歩」を、約90分に凝縮してお届けします。</p>
+        <div class="benefit-card">
+          <ul class="benefit-list">
+            <li class="benefit-item">
+              <span class="benefit-item-num">01</span>
+              <div class="benefit-item-body">
+                <span class="benefit-item-label">理解が深まる</span>
+                <span class="benefit-item-text">なぜ売上があるのに現金が残らないのか、その構造</span>
+              </div>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-item-num">02</span>
+              <div class="benefit-item-body">
+                <span class="benefit-item-label">考え方が変わる</span>
+                <span class="benefit-item-text">利益から逆算する考え方と、経営計画の第一歩</span>
+              </div>
+            </li>
+            <li class="benefit-item">
+              <span class="benefit-item-num">03</span>
+              <div class="benefit-item-body">
+                <span class="benefit-item-label">明日から動ける</span>
+                <span class="benefit-item-text">サクセスロードマップの全体像と、自社でどこから手をつけるか</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <p class="benefit-note">オンライン・無料・約90分程度でお届けします。</p>
+      </div>
+    </section>
+
+    <!-- セミナーで得られる3つの成果 + 参加特典 -->
+    <section class="lp-section outcomes-section" id="outcomes">
+      <div class="outcomes-hero-band"></div>
+      <div class="outcomes-gold-band"></div>
+      <div class="outcomes-wrap">
+        <div class="outcomes-label-wrap">
+          <span class="outcomes-label-box">セミナーで得られる成果</span>
+        </div>
+        <h2 class="outcomes-title">セミナーで得られる3つの成果</h2>
+        <p class="outcomes-lead">このウェブセミナーに参加することで、あなたが手に入れるもの</p>
+        <p class="outcomes-sub">知識ではなく、行動を持ち帰ってください</p>
+        <ul class="outcomes-list">
+          <li class="outcomes-item">
+            <h3 class="outcomes-item-title">判断基準が明確になる</h3>
+            <p class="outcomes-item-text">「なんとなく」の経営判断から卒業。投資、借入、採用など、あらゆる意思決定に明確な基準を持てるようになります。もう迷いません。</p>
+          </li>
+          <li class="outcomes-item">
+            <h3 class="outcomes-item-title">キャッシュが残る仕組みがわかる</h3>
+            <p class="outcomes-item-text">黒字なのに現金が残らない理由が明確に。目標から逆算して、本当に必要な利益とキャッシュフローを設計できます。通帳残高の不安から解放されます。</p>
+          </li>
+          <li class="outcomes-item">
+            <h3 class="outcomes-item-title">明日からの行動が決まる</h3>
+            <p class="outcomes-item-text">知識を学んで終わりではなく、セミナー翌日から実行できる具体的な行動計画を持ち帰れます。「わかった」ではなく「できる」を実現します。</p>
+          </li>
+        </ul>
+        <div class="outcomes-tokuten">
+          <h3 class="outcomes-tokuten-heading">参加特典</h3>
+          <p class="outcomes-tokuten-title">無料財務健康診断付き</p>
+          <p class="outcomes-tokuten-desc">セミナー参加者限定で、丸一 良太による個別財務健康診断（通常11万円相当）を無料でご提供。<br>あなたの会社の財務状況を診断し、具体的な改善アクションをご提案します。<br>これだけでも、参加する価値があります。</p>
+          <ul class="outcomes-tokuten-features">
+            <li>60分の個別相談</li>
+            <li>診断レポート付き</li>
+            <li>完全無料</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="lp-cta-inline">
+      <p class="lp-cta-inline-lead">今すぐ下のボタンからお申し込みください。</p>
+      <p class="lp-cta-inline-note">参加費は無料です。お申し込み後、メールにてZoomのご案内をお送りします。</p>
+      <div class="lp-cta-inline-btn-wrap">
+        <a href="https://aw.monolith-partners.fun/page/euoTb72qUiwb" class="lp-cta-inline-btn">今すぐ無料参加する</a>
+      </div>
+    </div>
+
+    <!-- 丸一式 利益逆算メソッド（無料セミナーとサクセスロードマップの間） -->
+    <section class="lp-section method-section" id="method">
+      <div class="method-hero-band"></div>
+      <div class="method-gold-band"></div>
+      <div class="method-wrap">
+        <div class="method-label-wrap">
+          <span class="method-label-box">丸一式メソッド</span>
+        </div>
+        <h2 class="method-title">9年で1,200名が実践<br>丸一式「利益逆算メソッド」</h2>
+        <p class="method-lead">知識を学ぶのではなく、社長の判断基準を変え、行動を設計する。<br>財務を「難しい数字」から「明日の行動を決める羅針盤」に変える、<br>独自の財務実装プログラム。</p>
+        <ul class="method-steps">
+          <li class="method-step">
+            <span class="method-step-num">01</span>
+            <div class="method-step-body">
+              <h3 class="method-step-title">目標の再定義</h3>
+              <p class="method-step-text">「売上目標」ではなく「社長が本当に実現したいこと」を明確化。数字の先にある、あなたの人生の目標を設定します。なぜ経営しているのか、その答えがここにあります。</p>
+            </div>
+          </li>
+          <li class="method-step">
+            <span class="method-step-num">02</span>
+            <div class="method-step-body">
+              <h3 class="method-step-title">必要キャッシュの確定</h3>
+              <p class="method-step-text">その目標を実現するために、いつまでに、いくらの現金が必要なのか。逆算思考で「必要資金」を明確にします。曖昧な計画から、具体的な数字へ。</p>
+            </div>
+          </li>
+          <li class="method-step">
+            <span class="method-step-num">03</span>
+            <div class="method-step-body">
+              <h3 class="method-step-title">逆算売上の定義</h3>
+              <p class="method-step-text">必要なキャッシュから逆算して、本当に達成すべき売上と利益を算出。根拠のある数字で経営計画を立てます。もう「なんとなく」の目標設定はしません。</p>
+            </div>
+          </li>
+          <li class="method-step">
+            <span class="method-step-num">04</span>
+            <div class="method-step-body">
+              <h3 class="method-step-title">明日の行動設計</h3>
+              <p class="method-step-text">計画を実現するために、明日から何をすべきか。具体的な行動レベルまで落とし込み、実行可能な状態にします。知識ではなく、行動を持ち帰ってください。</p>
+            </div>
+          </li>
+        </ul>
+        <div class="method-closing">
+          <p class="method-closing-text">このメソッドで、財務は「難しい数字」から<br>「明日の行動を決める羅針盤」に変わります。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. サクセスロードマップ（ヒーロー・悩みセクション踏襲・大胆デザイン） -->
+    <section class="lp-section" id="kaiketsu">
+      <div class="roadmap-wrap">
+        <div class="roadmap-hero-band"></div>
+        <div class="roadmap-gold-band"></div>
+        <div class="roadmap-main">
+          <div class="roadmap-label-wrap">
+            <div class="roadmap-label-box">丸一が9年間で磨いた</div>
+          </div>
+          <h2 class="roadmap-title">「<span class="roadmap-title-accent">サクセスロードマップ</span>」</h2>
+          <p class="roadmap-lead">いきなり節税や売上施策ではなく、<strong>「現状把握→知識→計画→事業性評価→問題解決」</strong>の順番があります。</p>
+          <div class="roadmap-flow-wrap">
+            <div class="roadmap-flow-box">
+              <div class="roadmap-flow-inner">
+                <span class="roadmap-step">現状把握</span>
+                <span class="roadmap-arrow">→</span>
+                <span class="roadmap-step">知識</span>
+                <span class="roadmap-arrow">→</span>
+                <span class="roadmap-step">計画</span>
+                <span class="roadmap-arrow">→</span>
+                <span class="roadmap-step">事業性評価</span>
+                <span class="roadmap-arrow">→</span>
+                <span class="roadmap-step">問題解決</span>
+              </div>
+            </div>
+          </div>
+          <div class="roadmap-closing">
+            <p class="roadmap-closing-line1">利益から逆算して、売上・経費・行動を設計する。<br>銀行に伝わる経営計画まで、</p>
+            <p><span class="roadmap-closing-box">一気通貫でお伝えします。</span></p>
+          </div>
+          <p class="roadmap-detail-heading">5つのステップ（財務分析 → 問題解決）</p>
+          <div class="roadmap-detail-card">
+            <ul class="roadmap-detail-steps">
+              <li>
+                <span class="step-num">I</span>
+                <span class="step-body"><strong>財務現状分析</strong> 現状を正しく把握する</span>
+              </li>
+              <li>
+                <span class="step-num">II</span>
+                <span class="step-body"><strong>財務経営知識の習得</strong> 判断できる経営者になる</span>
+              </li>
+              <li>
+                <span class="step-num">III</span>
+                <span class="step-body"><strong>経営計画策定</strong> 利益から逆算した計画を立てる</span>
+              </li>
+              <li>
+                <span class="step-num">IV</span>
+                <span class="step-body"><strong>事業性評価</strong> 銀行に伝わる経営計画をつくる</span>
+              </li>
+              <li>
+                <span class="step-num">V</span>
+                <span class="step-body"><strong>問題解決</strong> 資金繰り・試算表・固定費など実行に移す</span>
+              </li>
+            </ul>
+          </div>
+          <div class="roadmap-detail-note-wrap">
+            <p class="roadmap-detail-note"><span class="roadmap-detail-note-lead">この順番で進めるから、</span>財務が整い、売上・利益も伸ばせます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="lp-cta-inline">
+      <p class="lp-cta-inline-lead">今すぐ下のボタンからお申し込みください。</p>
+      <p class="lp-cta-inline-note">参加費は無料です。お申し込み後、メールにてZoomのご案内をお送りします。</p>
+      <div class="lp-cta-inline-btn-wrap">
+        <a href="https://aw.monolith-partners.fun/page/euoTb72qUiwb" class="lp-cta-inline-btn">今すぐ無料参加する</a>
+      </div>
+    </div>
+
+    <!-- 講師紹介（サクセスロードマップ踏襲・権威性・この講師ならお金が残る） -->
+    <section class="instructor-section" id="instructor">
+      <div class="inst-hero-band"></div>
+      <div class="inst-gold-band"></div>
+      <div class="inst-wrap">
+        <div class="inst-label-wrap">
+          <div class="inst-label-box">講師紹介</div>
+        </div>
+        <p class="inst-catch">この講師なら、<span class="inst-catch-accent">会社にお金が残る。</span></p>
+        <div class="inst-card">
+          <div class="inst-photo-wrap">
+            <img src="assets/images/instructor.png" alt="丸一 財務コンサルタント" class="inst-photo" width="200" height="200">
+            <span class="inst-photo-badge">財務コンサルタント</span>
+          </div>
+          <div class="inst-body">
+            <p class="inst-name">丸一 良太</p>
+            <p class="inst-title">株式会社C.O.C 代表取締役</p>
+            <div class="inst-stats">
+              <span class="inst-stat-pill">延べ約1,200名の経営者に伴走</span>
+              <span class="inst-stat-pill">175社・23業種 顧問実績</span>
+              <span class="inst-stat-pill">年間約25社 顧問契約</span>
+              <span class="inst-stat-pill">令和丸塾 延べ約200名参加</span>
+            </div>
+            <div class="inst-bio">
+              <p><strong>【実績】</strong>過去9年間で延べ<strong>約1,200名の経営者</strong>と向き合い、財務の課題解決を伴走。個別コンサルタント契約は<strong>175社・23業種</strong>。直近は年間約25社の顧問契約を継続。オフライン経営者勉強会「令和丸塾」には延べ約200名が参加。</p>
+              <p><strong>【丸一の特徴】</strong>「利益から逆算する」財務コンサル。会社の目指す姿と残すべき現金を設定し、そこから本年度の売上目標と打ち手を逆算。並行してB/Sを分析し、経営者の優先順位に沿って財務を整えます。9年間の実践で培った<strong>丸一独自のサクセスロードマップ</strong>をベースに、財務を整えながら売上・利益を伸ばす伴走をしています。</p>
+              <p>「売上は伸びているのに、会社に現金が残らない」という経営者のお悩みに、真正面から向き合ってきました。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 一般的な財務セミナーとの比較 -->
+    <section class="lp-section compare-section" id="compare">
+      <div class="compare-hero-band"></div>
+      <div class="compare-gold-band"></div>
+      <div class="compare-wrap">
+        <div class="compare-label-wrap">
+          <span class="compare-label-box">他社との違い</span>
+        </div>
+        <h2 class="compare-title">一般的な財務セミナーとの決定的な違い</h2>
+        <p class="compare-lead">知識を学ぶだけでは、会社は変わりません。<br>丸一の財務実装は、「行動変容」にフォーカスします。</p>
+        <div class="compare-table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th class="compare-th-item">比較項目</th>
+                <th class="compare-th-general">一般的な財務セミナー<br><span class="compare-th-sub">知識・節税のみ</span></th>
+                <th class="compare-th-maruichi">丸一の財務実装<br><span class="compare-th-sub">判断基準・行動変容</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="compare-td-item">学ぶ内容</td>
+                <td class="compare-td-general">決算書の読み方、財務指標の知識</td>
+                <td class="compare-td-maruichi">社長の判断基準、行動設計の方法</td>
+              </tr>
+              <tr>
+                <td class="compare-td-item">目的</td>
+                <td class="compare-td-general">知識の習得、節税テクニック</td>
+                <td class="compare-td-maruichi">明日からの行動変容、実装</td>
+              </tr>
+              <tr>
+                <td class="compare-td-item">アプローチ</td>
+                <td class="compare-td-general">過去の数字を分析する</td>
+                <td class="compare-td-maruichi">未来の目標から逆算する</td>
+              </tr>
+              <tr>
+                <td class="compare-td-item">成果</td>
+                <td class="compare-td-general">「わかった」で終わる</td>
+                <td class="compare-td-maruichi">「できる」まで伴走する</td>
+              </tr>
+              <tr>
+                <td class="compare-td-item">対象者</td>
+                <td class="compare-td-general">数字が得意な人向け</td>
+                <td class="compare-td-maruichi">数字が苦手な社長こそ歓迎</td>
+              </tr>
+              <tr>
+                <td class="compare-td-item">サポート</td>
+                <td class="compare-td-general">セミナーで終了</td>
+                <td class="compare-td-maruichi">個別財務健康診断付き（11万円相当）</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="compare-closing-box">
+          <p class="compare-closing-main">財務は「学ぶもの」ではなく、「使うもの」</p>
+          <p class="compare-closing-sub">丸一の財務実装セミナーは、知識ではなく<br>「明日からの行動」を持ち帰っていただきます。</p>
+        </div>
+        <div class="compare-proof-wrap">
+          <p class="compare-proof"><span class="compare-proof-num">9年</span>で<span class="compare-proof-num">1,200名</span>の経営者が、このメソッドで会社を変えました</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 確かな実績と信頼 -->
+    <section class="lp-section jisseki-section" id="jisseki">
+      <div class="jisseki-hero-band"></div>
+      <div class="jisseki-gold-band"></div>
+      <div class="jisseki-wrap">
+        <div class="jisseki-label-wrap">
+          <span class="jisseki-label-box">確かな実績と信頼</span>
+        </div>
+        <h2 class="jisseki-title">9年間で1,200名の経営者が実感した、財務実装の成果</h2>
+        <ul class="jisseki-stats">
+          <li class="jisseki-stat">
+            <span class="jisseki-stat-num">9年</span>
+            <span class="jisseki-stat-label">実績年数</span>
+            <span class="jisseki-stat-sub">2016年から継続</span>
+          </li>
+          <li class="jisseki-stat">
+            <span class="jisseki-stat-num">1,200名</span>
+            <span class="jisseki-stat-label">累計面談数</span>
+            <span class="jisseki-stat-sub">経営者との対話実績</span>
+          </li>
+          <li class="jisseki-stat">
+            <span class="jisseki-stat-num">175社</span>
+            <span class="jisseki-stat-label">個別契約</span>
+            <span class="jisseki-stat-sub">継続サポート企業数</span>
+          </li>
+          <li class="jisseki-stat">
+            <span class="jisseki-stat-num">23業種</span>
+            <span class="jisseki-stat-label">対応業種</span>
+            <span class="jisseki-stat-sub">幅広い業界経験</span>
+          </li>
+        </ul>
+        <h3 class="jisseki-voice-heading">受講生の声</h3>
+        <div class="jisseki-voices">
+          <div class="jisseki-voice-card">
+            <p class="jisseki-voice-text">「黒字なのに現金が残らない」という悩みが、セミナー後すぐに解決しました。目標から逆算する考え方で、投資判断が明確になり、もう迷うことはありません。丸一さんに出会えて本当に良かったです。</p>
+            <p class="jisseki-voice-attr">製造業 代表取締役</p>
+            <p class="jisseki-voice-sub">年商6億円</p>
+          </div>
+          <div class="jisseki-voice-card">
+            <p class="jisseki-voice-text">数字が苦手で財務は税理士任せでしたが、丸一さんのセミナーで「社長が判断すべきこと」が明確になりました。もっと早く知りたかった。これまでの10年間、何をしていたんだろうと思うほどです。</p>
+            <p class="jisseki-voice-attr">小売業 社長</p>
+            <p class="jisseki-voice-sub">年商3億円</p>
+          </div>
+          <div class="jisseki-voice-card">
+            <p class="jisseki-voice-text">借入の判断基準がなく、いつも不安でした。利益逆算メソッドで、必要な資金と返済計画が明確になり、自信を持って銀行と交渉できるようになりました。経営者として、やっと一人前になれた気がします。</p>
+            <p class="jisseki-voice-attr">建設業 経営者</p>
+            <p class="jisseki-voice-sub">年商4億円</p>
+          </div>
+        </div>
+        <div class="jisseki-cta-box">
+          <p class="jisseki-cta-your-turn">次は、あなたの番です。</p>
+          <p class="jisseki-cta-main"><span class="jisseki-cta-accent">あなたも、明日から変わる</span><br>経営判断を手に入れませんか？</p>
+          <p class="jisseki-cta-next-step">次の一歩は、下のボタンから。</p>
+        </div>
+        <div class="jisseki-cta-arrow" aria-hidden="true"></div>
+        <div class="lp-cta-inline">
+          <p class="lp-cta-inline-lead">今すぐ下のボタンからお申し込みください。</p>
+          <p class="lp-cta-inline-note">参加費は無料です。お申し込み後、メールにてZoomのご案内をお送りします。</p>
+          <div class="lp-cta-inline-btn-wrap">
+            <a href="https://aw.monolith-partners.fun/page/euoTb72qUiwb" class="lp-cta-inline-btn">今すぐ無料参加する</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. セミナー概要（確かな実績と信頼トンマナ） -->
+    <section class="lp-section" id="program">
+      <div class="program-hero-band"></div>
+      <div class="program-gold-band"></div>
+      <div class="program-wrap">
+        <div class="program-label-wrap">
+          <span class="program-label-box">セミナー概要</span>
+        </div>
+        <div class="program-card">
+        <div class="program-card-grid">
+          <div class="program-card-item">
+            <div class="program-card-icon" aria-hidden="true"><span>形</span></div>
+            <dl class="program-card-body">
+              <dt>開催形式</dt>
+              <dd>オンライン（Zoom）</dd>
+            </dl>
+          </div>
+          <div class="program-card-item">
+            <div class="program-card-icon" aria-hidden="true"><span>講</span></div>
+            <dl class="program-card-body">
+              <dt>講師</dt>
+              <dd>丸一 良太（財務コンサルタント）</dd>
+            </dl>
+          </div>
+          <div class="program-card-item">
+            <div class="program-card-icon" aria-hidden="true"><span>時</span></div>
+            <dl class="program-card-body">
+              <dt>所要時間</dt>
+              <dd>約90分</dd>
+            </dl>
+          </div>
+          <div class="program-card-item">
+            <div class="program-card-icon" aria-hidden="true"><span>費</span></div>
+            <dl class="program-card-body">
+              <dt>参加費</dt>
+              <dd>完全無料</dd>
+            </dl>
+          </div>
+        </div>
+        <dl class="program-card-extra">
+          <dt>プログラム（予定）</dt>
+          <dd>前半：売上と手元資金の課題と、サクセスロードマップの概要<br>後半：利益から逆算する考え方と、次の一歩</dd>
+          <dt>対象</dt>
+          <dd>経営者（法人・個人問わず）</dd>
+        </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- まとめ（申し込み前の一押し・権威性・確かな実績トンマナ） -->
+    <section class="lp-section" id="summary">
+      <div class="summary-hero-band"></div>
+      <div class="summary-gold-band"></div>
+      <div class="summary-wrap">
+        <div class="summary-label-wrap">
+          <span class="summary-label-box">ご案内</span>
+        </div>
+        <h2 class="summary-title">財務を整え、売上・利益を伸ばす第一歩を</h2>
+        <p class="summary-lead">
+          <span class="summary-lead-question">「売上は伸びているのに、なぜ会社にお金が残らないのか？」</span>
+          <span class="summary-lead-body">——その答えと、利益から逆算する経営の考え方を、丸一が9年間で磨いたサクセスロードマップに沿ってお伝えします。</span>
+        </p>
+        <p class="summary-note">無料・オンライン・約90分。今だけの限定公開です。まずはお気軽にご参加ください。</p>
+      </div>
+    </section>
+
+    <!-- 10. お申し込み（確かな実績と信頼トンマナ） -->
+    <section class="lp-section" id="form">
+      <div class="form-hero-band"></div>
+      <div class="form-gold-band"></div>
+      <div class="form-wrap">
+        <div class="form-label-wrap">
+          <span class="form-label-box">無料で参加申し込み</span>
+        </div>
+        <div class="form-cta-card">
+          <h2 class="form-title">売上と手元資金が一致しないお悩みを解消する第一歩。</h2>
+          <p class="form-cta-lead">今すぐ下のボタンからお申し込みください。</p>
+          <p class="form-cta-note">参加費は無料です。お申し込み後、メールにてZoomのご案内をお送りします。</p>
+          <div class="form-cta-btn-wrap">
+            <a href="https://aw.monolith-partners.fun/page/euoTb72qUiwb" class="form-cta-btn">今すぐ無料参加する</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ（確かな実績と信頼トンマナ） -->
+    <section class="lp-section" id="faq">
+      <div class="faq-hero-band"></div>
+      <div class="faq-gold-band"></div>
+      <div class="faq-wrap">
+        <div class="faq-label-wrap">
+          <span class="faq-label-box">よくある質問</span>
+        </div>
+        <div class="faq-list">
+      <div class="faq-item">
+        <p class="faq-q">Ｑ　税理士との違いは何ですか？</p>
+        <p class="faq-a">Ａ　税理士は「過去の数字の記録と税務申告」が専門です。一方、丸一の財務実装は「未来の目標から逆算した行動設計」にフォーカスします。税理士が作った決算書を使って、社長が明日から何をすべきかを設計するのが私たちの役割です。税理士と対立するのではなく、補完し合う関係です。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Ｑ　数字が苦手でも大丈夫ですか？</p>
+        <p class="faq-a">Ａ　むしろ数字が苦手な社長こそ歓迎です。このセミナーは「財務知識を学ぶ」のではなく、「判断基準を手に入れる」ことが目的です。難しい専門用語は使わず、社長の言葉で、明日からの行動レベルまで落とし込みます。9年で1,200名の経営者のうち、8割以上が「数字が苦手」とおっしゃっていた方々です。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Ｑ　セミナーの後、何か売り込まれませんか？</p>
+        <p class="faq-a">Ａ　セミナー内での強引な営業は一切ありません。ただし、セミナー後に「もっと詳しく相談したい」という方には、個別相談のご案内をさせていただきます。参加特典の無料財務健康診断も、あくまで任意です。安心してご参加ください。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Ｑ　どんな業種でも対応できますか？</p>
+        <p class="faq-a">Ａ　はい、対応可能です。これまで23業種、175社の個別契約実績があります。製造業、小売業、サービス業、建設業、IT業など、幅広い業種の経営者をサポートしてきました。業種が違っても、「キャッシュが残らない」「投資判断ができない」という悩みの本質は共通しています。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Ｑ　セミナーはどのくらいの時間ですか？</p>
+        <p class="faq-a">Ａ　約90分を予定しています。前半60分で「利益逆算メソッド」の全体像をお伝えし、後半30分で質疑応答と個別相談のご案内を行います。オンライン（Zoom）開催なので、全国どこからでもご参加いただけます。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">Ｑ　参加費は本当に無料ですか？</p>
+        <p class="faq-a">Ａ　はい、完全無料です。さらに参加特典として、通常11万円相当の「無料財務健康診断（60分の個別相談）」もご提供します。私たちは、まず経営者の皆様に「財務実装」の価値を実感していただきたいと考えています。その上で、継続的なサポートが必要だと感じた方にのみ、有料サービスをご案内しています。</p>
+      </div>
+        <div class="lp-cta-inline">
+          <p class="lp-cta-inline-lead">今すぐ下のボタンからお申し込みください。</p>
+          <p class="lp-cta-inline-note">参加費は無料です。お申し込み後、メールにてZoomのご案内をお送りします。</p>
+          <div class="lp-cta-inline-btn-wrap">
+            <a href="https://aw.monolith-partners.fun/page/euoTb72qUiwb" class="lp-cta-inline-btn">今すぐ無料参加する</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p><a href="#top">ページトップへ</a></p>
+    <p><a href="#">特定商取引法に基づく表記</a>　<a href="#">プライバシーポリシー</a></p>
+    <p>© 株式会社C.O.C</p>
+  </footer>
+
+  <script>
+    // 画像が無い場合にプレースホルダーを表示（独自LP用に差し替え可能）
+    (function() {
+      var ph = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="720" height="360"%3E%3Crect fill="%23e2e8f0" width="720" height="360"/%3E%3Ctext x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle" fill="%23718096" font-family="sans-serif" font-size="14"%3E画像%3C/text%3E%3C/svg%3E';
+      document.querySelectorAll('.lp-wrap img').forEach(function(img) {
+        img.onerror = function() { this.src = ph; this.onerror = null; };
+      });
+    })();
+  </script>
+</body>
+</html>
